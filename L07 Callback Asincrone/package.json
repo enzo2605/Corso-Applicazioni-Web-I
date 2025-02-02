@@ -1,11 +1,12 @@
 {
   "dependencies": {
+    "dayjs": "^1.11.13",
     "l07-callback-asincrone": "file:",
     "sqlite3": "^5.1.7"
   },
   "name": "l07-callback-asincrone",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "exercise.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
