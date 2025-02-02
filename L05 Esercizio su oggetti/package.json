@@ -9,6 +9,7 @@
   "author": "Vincenzo Iannucci",
   "license": "ISC",
   "dependencies": {
-    "dayjs": "^1.11.13"
+    "dayjs": "^1.11.13",
+    "l05-esercizio-su-oggetti": "file:"
   }
 }
