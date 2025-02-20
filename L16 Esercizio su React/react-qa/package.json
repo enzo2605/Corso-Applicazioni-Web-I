@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "react-qa",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "my-app": "file:",
+    "bootstrap": "^5.3.3",
+    "dayjs": "^1.11.13",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-qa": "file:"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
