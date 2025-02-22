@@ -14,13 +14,12 @@ const fakeQuestion = new Question(
 fakeQuestion.init();
 
 function App() {
-
   return (
     <>
       <NavHeader questionNum = { fakeQuestion.id } />
       <Container fluid className="mt-3">
         <QuestionDescription question = { fakeQuestion } />
-        <Answers answer = { fakeQuestion.getAnswers() } /> 
+        <Answers answers = { fakeQuestion.getAnswers() } /> 
       </Container>
     </>
   )
